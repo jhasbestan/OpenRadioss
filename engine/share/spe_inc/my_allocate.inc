@@ -26,7 +26,7 @@ Copyright>        commercial version may interest you: https://www.altair.com/ra
 #define MY_ERROR(ARRAY,MY_IERR) CALL ERROR_ALLOC(#ARRAY, MY_IERR)
 
 #ifndef MY_ALLOCATE
-#define MY_ALLOCATE(ARRAY,LENGTH) ALLOCATE(ARRAY(LENGTH),STAT=MY_IERR); MY_ERROR(ARRAY,MY_IERR)
+#define MY_ALLOCATE(ARRAY,LENGTH) ALLOCATE(ARRAY(LENGTH),STAT=MY_IERR); !MY_ERROR(ARRAY,MY_IERR)
 #endif
 
 #ifndef MY_ALLOCATE2D

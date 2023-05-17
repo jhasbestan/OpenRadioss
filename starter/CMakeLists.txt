@@ -248,7 +248,7 @@ if(DEFINED VS_BUILD)
 endif()
 
 target_include_directories(${EXEC_NAME} PRIVATE ${include_dir_list}  )
-target_link_libraries(${EXEC_NAME} ${LINK} )
+target_link_libraries(${EXEC_NAME} ${LINK} -lstdc++)
 
 # Fortran to link
 set_property(TARGET ${EXEC_NAME} PROPERTY LINKER_LANGUAGE Fortran)

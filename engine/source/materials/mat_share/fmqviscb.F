@@ -69,7 +69,8 @@ C-----------------------------------------------
 C
       INTEGER NELTST,ITYPTST,PID(*),MAT(*),NEL,NGL(*)
       my_real DT2T
-      my_real PM(NPROPM,NUMMAT),GEO(NPROPG,NUMGEO),DELTAX(*),SSP(*),AIRE(*),QVIS(*),VIS(*),UVAR(NEL,*),OFF(*),VD2(*),OFFG(*)
+      my_real PM(NPROPM,NUMMAT),GEO(NPROPG,NUMGEO),DELTAX(*),SSP(*)
+      my_real AIRE(*),QVIS(*),VIS(*),UVAR(NEL,*),OFF(*),VD2(*),OFFG(*)
 C-----------------------------------------------
 C   L o c a l   V a r i a b l e s
 C-----------------------------------------------
